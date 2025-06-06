@@ -161,14 +161,14 @@ python src/generate_figures.py
 
 The RADAR# framework achieves state-of-the-art performance on Arabic radicalization detection:
 
-| Model | Accuracy | F1 Score | ROC-AUC |
-|-------|----------|----------|---------|
-| BERT-Arabic | 82% | 81% | 83% |
-| AraBERT | 85% | 84% | 86% |
-| CNN-LSTM | 79% | 77% | 80% |
-| MarBERT | 87% | 86% | 88% |
-| BiLSTM-Attention | 83% | 82% | 84% |
-| **RADAR#** | **92%** | **91%** | **93%** |
+Model	Accuracy	Precision	Recall	F1-Score	ROC-AUC	Training Time (hrs)	Inference Time (ms/sample)	Parameters (M)
+RADAR# (Ours)	96.1%	96.1%	95.1%	95.6%	0.983	4.2	18	124
+AraBERT-v2  93.8%	94.2%	92.5%	93.3%	0.967	6.8	32	178
+MarBERT 	94.2%	94.8%	92.9%	93.8%	0.971	7.2	35	183
+AraGPT2-base 	91.5%	92.1%	90.3%	91.2%	0.952	5.3	28	135
+AraELECTRA 93.2%	93.7%	92.1%	92.9%	0.964	5.1	25	109
+CNN-BiLSTM 	90.8%	91.3%	89.7%	90.5%	0.943	2.8	12	42
+
 
 ## Citation
 
