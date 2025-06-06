@@ -167,7 +167,6 @@ The RADAR# framework achieves state-of-the-art performance on Arabic radicalizat
 | AraBERT | 85% | 84% | 86% |
 | CNN-LSTM | 79% | 77% | 80% |
 | MarBERT | 87% | 86% | 88% |
-| ARBERT | 86% | 85% | 87% |
 | BiLSTM-Attention | 83% | 82% | 84% |
 | **RADAR#** | **92%** | **91%** | **93%** |
 
@@ -178,8 +177,8 @@ If you use this code or dataset in your research, please cite:
 ```
 @article{radar2025,
   title={RADAR#: A Deep Learning Framework for Radicalization Detection in Arabic Social Media},
-  author={[Author Names]},
-  journal={[Journal Name]},
+  author={[Emad M. Al-Shawakfa, Anas M.R. Alsobeh, Sahar Omari, Amani Shatnawi]},
+  journal={[Information, MDPI]},
   year={2025},
   volume={},
   pages={}
@@ -190,8 +189,3 @@ If you use this code or dataset in your research, please cite:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- [Funding sources and collaborators]
-- Arabic NLP community for resources and benchmarks
-- Open-source libraries and frameworks used in this project
