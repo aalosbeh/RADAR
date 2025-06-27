@@ -175,13 +175,18 @@ CNN-BiLSTM 	90.8%	91.3%	89.7%	90.5%	0.943	2.8	12	42
 If you use this code or dataset in your research, please cite:
 
 ```
-@article{radar2025,
-  title={RADAR#: A Deep Learning Framework for Radicalization Detection in Arabic Social Media},
-  author={[Emad M. Al-Shawakfa, Anas M.R. Alsobeh, Sahar Omari, Amani Shatnawi]},
-  journal={[Information, MDPI]},
-  year={2025},
-  volume={},
-  pages={}
+@Article{info16070522,
+AUTHOR = {Al-Shawakfa, Emad M. and Alsobeh, Anas M. R. and Omari, Sahar and Shatnawi, Amani},
+TITLE = {RADAR#: An Ensemble Approach for Radicalization Detection in Arabic Social Media Using Hybrid Deep Learning and Transformer Models},
+JOURNAL = {Information},
+VOLUME = {16},
+YEAR = {2025},
+NUMBER = {7},
+ARTICLE-NUMBER = {522},
+URL = {https://www.mdpi.com/2078-2489/16/7/522},
+ISSN = {2078-2489},
+ABSTRACT = {The recent increase in extremist material on social media platforms makes serious countermeasures to international cybersecurity and national security efforts more difficult. RADAR#, a deep ensemble approach for the detection of radicalization in Arabic tweets, is introduced in this paper. Our model combines a hybrid CNN-Bi-LSTM framework with a top Arabic transformer model (AraBERT) through a weighted ensemble strategy. We employ domain-specific Arabic tweet pre-processing techniques and a custom attention layer to better focus on radicalization indicators. Experiments over a 89,816 Arabic tweet dataset indicate that RADAR# reaches 98% accuracy and a 97% F1-score, surpassing advanced approaches. The ensemble strategy is particularly beneficial in handling dialectical variations and context-sensitive words common in Arabic social media updates. We provide a full performance analysis of the model, including ablation studies and attention visualization for better interpretability. Our contribution is useful to the cybersecurity community through an effective early detection mechanism of online radicalization in Arabic language content, which can be potentially applied in counter-terrorism and online content moderation.},
+DOI = {10.3390/info16070522}
 }
 ```
 
