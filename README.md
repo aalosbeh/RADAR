@@ -28,7 +28,6 @@ radar_project/
 │   ├── data/                  # Data processing modules
 │   │   ├── preprocessing.py   # Arabic text preprocessing
 │   │   ├── dataset.py         # Dataset handling
-│   │   └── augmentation.py    # Data augmentation
 │   ├── models/                # Model architecture
 │   │   ├── cnn_bilstm.py      # CNN-BiLSTM implementation
 │   │   ├── attention.py       # Attention mechanism
@@ -42,9 +41,7 @@ radar_project/
 │   │   ├── metrics.py         # Evaluation metrics
 │   │   ├── error_analysis.py  # Error analysis
 │   │   └── interpretability.py # Interpretability visualization
-│   └── generate_figures.py    # Script to generate all figures
 ├── results/                   # Results and outputs
-│   └── figures/               # Generated figures
 ├── notebooks/                 # Jupyter notebooks for experiments
 ├── requirements.txt           # Python dependencies
 ├── setup.py                   # Package setup script
